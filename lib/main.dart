@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:notefyi_r/firebase_options.dart';
-import 'package:notefyi_r/home.dart';
+import 'package:notefyi_r/login.dart';
 import 'package:notefyi_r/services/notifications.dart';
 import 'package:provider/provider.dart';
 
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const MyHomePage(),
+      home: const LoginPage(),
       debugShowCheckedModeBanner: false,
     );
   }
